@@ -18,6 +18,10 @@ int main()
 
     if ((x > y) && (x > z)) {
         cout << x << " to najwieksza liczba.";
+    } else if ((y > x) && (y > z)){
+        cout << y << " to najwieksza liczba.";
+    } else {
+        cout << z << " to najwieksza liczba.";
     }
 }
 
